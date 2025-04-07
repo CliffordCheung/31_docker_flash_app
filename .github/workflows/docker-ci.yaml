@@ -28,4 +28,4 @@ jobs:
             context: . # Build context (current directory)
             file: ./Dockerfile #path to Dockerfile (if it's in the root of the repository)
             push: true # Push the image after building
-            tags: ${{ secrets.DOCKER_USERNAME}}/my-app:latest # Tag the image
+            tags: ${{ secrets.DOCKER_USERNAME}}/flask-app:latest # Tag the image
